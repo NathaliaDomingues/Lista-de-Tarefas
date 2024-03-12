@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: mario bros1;
+    src: url(New\ Super\ Mario\ Font\ U.ttf);
+}
+
+@font-face {
+    font-family: mario bros2;
+    src: url(Super\ Mario\ Bros.\ 2.ttf);
+}
+
+@font-face {
+    font-family: mario bros3;
+    src: url(pixelmario.ttf);
+}
+
+body{
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/a4/12/28/a41228687dd9df1b5cbd27bbac0a7be8.png);
+    font-family: mario bros3;
+}
+
+h1{
+    font-family: mario bros1;
+    margin-top: 2em;
+    font-size: 70px;
+    color: #fdcca8;
+    background-color: #e28f54;
+    box-shadow: 9px 9px 1px #bb6222;
+   padding: 10px;
+   margin: 90px;
+}
+
+#taskInput{
+    margin-top: 2em;
+    width: 70%;
+    margin-bottom: 10px;
+    font-family: mario bros3;
+    background-color: #fdcca8;
+    color: #e28f54;
+}
+
+#taskList{
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem{
+    margin-bottom: 5px;
+}
+
+.taskItem button{
+    margin-left: 5px;
+}
+
+button{
+    font-family: mario bros3;
+    color: #ffcca7;
+    background-color: #e28f54;
+    box-shadow: 4px 4px 1px #bb6222;
+}
